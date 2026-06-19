@@ -1,0 +1,17 @@
+{
+  "name": "turkce-dilekce-market",
+  "owner": {
+    "name": "Paradeida"
+  },
+  "plugins": [
+    {
+      "name": "dilekce-cerceveleri",
+      "source": ".",
+      "version": "1.0.0",
+      "description": "12 hukuki argüman çerçevesine göre Türk hukuku dilekçe yazım skill'leri (IRAC ailesi, CREAC, Toulmin, klasik retorik). docx/html/udf/pdf çıktısı; KVKK-temiz.",
+      "author": {
+        "name": "Paradeida"
+      }
+    }
+  ]
+}

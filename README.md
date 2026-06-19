@@ -49,15 +49,28 @@ dilekce-<cerceve>/
 
 ## Kurulum (Claude Code)
 
-Skill klasörlerini bir Claude Code eklentisinin ya da projenin `skills/` dizinine
-kopyalayın; Claude Code skill'leri otomatik tanır:
+### Seçenek 1 — Eklenti olarak (önerilen, tek komut)
+
+Bu depo bir Claude Code eklentisi (plugin) olarak paketlenmiştir. Claude Code içinde:
+
+```text
+/plugin marketplace add Paradeida/yapay-zeka-turkce-dilekce-skilleri
+/plugin install dilekce-cerceveleri@turkce-dilekce-market
+```
+
+Kurulduktan sonra 12 skill otomatik tanınır.
+
+### Seçenek 2 — Skilleri elle kopyalama
 
 ```bash
 git clone https://github.com/Paradeida/yapay-zeka-turkce-dilekce-skilleri.git
 # skills/ altındaki klasörleri kendi eklenti/proje skills dizininize kopyalayın
 ```
 
-Kullanırken çerçeve adıyla tetikleyin: örn. *"CREAC ... "*, *"MIRAT yöntemiyle cevap dilekçesi yaz"*, *"Toulmin ile bilirkişi raporuna itiraz"*.
+### Kullanım
+
+Çerçeve adıyla tetikleyin: örn. *"MIRAT yöntemiyle cevap dilekçesi yaz"*,
+*"CRAC ile zamanaşımı def'i dilekçesi"*, *"Toulmin ile bilirkişi raporuna itiraz"*.
 
 ## KVKK ve gizlilik
 

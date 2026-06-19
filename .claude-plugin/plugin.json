@@ -1,0 +1,12 @@
+{
+  "name": "dilekce-cerceveleri",
+  "displayName": "Yapay Zeka için Türkçe Dilekçe Skilleri",
+  "version": "1.0.0",
+  "description": "12 hukuki argüman çerçevesine (IRAC ailesi: MIRAT, IRAAC/IRRAC, ILAC, IPAC/IDAR, TREAC/TREACC; CREAC ailesi: CRAC, CRuPAC, CREXAC, CRRACC; TREAT; Toulmin; klasik retorik) göre Türk hukuku dilekçe ve savunma yazım skill'leri. docx/html/udf/pdf çıktısı üretir; tüm içerik KVKK-temiz yer tutuculudur.",
+  "author": {
+    "name": "Paradeida"
+  },
+  "homepage": "https://github.com/Paradeida/yapay-zeka-turkce-dilekce-skilleri",
+  "license": "MIT",
+  "keywords": ["hukuk", "dilekce", "irac", "creac", "toulmin", "claude-skills", "turkish", "lawtech", "yapay-zeka"]
+}
